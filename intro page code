@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foccassion</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<style>
+    /*CSS Reset*/
+    body{
+        color:black;
+        margin: 0px;
+        padding: 0px;
+        background-color: #FBF5C9;
+    }
+    .left{
+        display: inline-block;
+        border: 2px solid red;
+        left: 34px;
+        top:20px;
+        position: absolute;
+    }
+    .mid{
+        display: block;
+        width: 33%;
+        margin: 12px auto;
+        top:20px;
+        border: 2px solid blue;
+    }
+    .right{
+        position:absolute;
+        right:34px;
+        top:20px;
+        display: inline-block;
+        border: 2px solid green;
+
+    }
+    .navbar{
+        display: inline-block;
+
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 18px;
+
+    }
+    .navbar li a{
+        color: brown;
+        text-decoration: none;
+        padding: 30px 30px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color: blueviolet;
+    }
+    .left img{
+        width:140px;
+    }
+    
+    .Contact{
+        display: inline-block;
+    }
+    .Contact li{
+        display: inline-block;
+        font-size: 18px;
+    }
+    .Contact li a{
+        color: chocolate;
+        text-decoration: none;
+        padding: 30px 30px;
+    }
+    .btn
+    {
+        margin: 0px 9px;
+        background-color: chocolate;
+        color: white;
+        border: 2px solid rgb(9, 9, 9);
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .btn:hover{
+         background-color: blueviolet;
+    }
+    .container{
+        margin: 0px 100px;
+        padding: 2px 2px;
+        width: 100%;
+        border-radius: 2px;
+        color: chocolate;
+        font-size: 35px;
+
+    }
+    .contain{
+        margin: 150px 100px;
+        padding: 2px 2px;
+        width :100%;
+        border-radius: 2px;
+        color: chocolate;
+        font-size: 35px;
+    }
+    .form-group input{
+        display: inline-block;
+        padding: 6px;
+        width: 100px;
+        border: 2px solid black;
+        margin: 3px auto;
+        color: black;
+
+    }
+    img{
+        width : 10%;
+    }
+    .imag{
+        float:right;
+        width:30%;
+        height: 100%;
+    }
+</style>
+<body>
+    <header class="header">
+
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="logo.jpg" alt="Error in displaying">
+        </div>
+        <!-- Middle box for navigation -->
+        <div class="mid">
+            <ul class = "navbar">
+                <li><a href = "#">Venues</a></li>
+                <li><a href = "#">Vendors</a></li>
+                <li><a href = "#">Bride</a></li>
+                <li><a href = "#">Groom</a></li>
+            </ul>
+        </div>
+        <!-- Right box for buttons -->
+        <div class="right">
+            <ul class = "Contact">
+                <li><button class="btn">Contact us</button></li>
+                <li><button class="btn">About us</button></li>
+                
+            </ul>
+        </div>
+        <div class="contain">
+            <p><strong>Focassion</strong><img src="image2.jpg" class="imag"></p>
+            
+        </div>
+        
+        <div class="container">
+            A fabulous occasion.
+            <br> A perfect platform to organise an awesome and memorable wedding at ease.
+            <br> <strong>Sign up now</strong>
+            <br><img src="image1.jpg" class="imag">
+            <form action="noaction.php" class="forum">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your name"><br>
+                    <input type="email" name="" placeholder="Enter your email"><br>
+                    <input type="submit" value="submit now" class ="btn">
+
+                </div>
+            </form>
+            </div>
+            <div>
+                
+            </div>
+        
+    </header>
+</body>
+</html>
